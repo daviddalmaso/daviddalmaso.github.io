@@ -10,6 +10,43 @@ body {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+header {
+	width: 100%;
+	text-align: center;
+}
+
+.image_container {
+	position: relative;
+	height: 300px;
+	width: 300px;
+	margin: 0 auto;
+}
+
+.overlay {
+	position: absolute;
+	top: 0;
+	border-radius: 50%;
+	border: 6px double #EEF2F6;
+	height: 288px;
+	width: 288px;
+	opacity: 0;
+	transition: .8s ease;
+	background-color: #013A5F;
+}
+
+.image_container:hover .overlay {
+	opacity: 1;
+}
+
+.overlay_text {
+	color: white;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+}
 /*
   ========================================
   Media
@@ -17,13 +54,16 @@ body {
 */
 
 img {
-	height: 300px;
-	width: 300px;
+	height: 288px;
+	width: 288px;
 	border-radius: 50%;
 	border: 6px double #EEF2F6;
-	left: 50%;
 }
 
-.headshot {
-	float: center;
+h1 {
+	font-size: 48px;
+	font-weight: 100;
+	letter-spacing: .5px;
+	line-height: 44px;
 }
+
