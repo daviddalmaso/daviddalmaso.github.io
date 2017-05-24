@@ -1,0 +1,29 @@
+/*
+  ========================================
+  Custom styles
+  ========================================
+*/
+
+body {
+  background: #293F50;
+  color: #B8CAD7;
+  font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*
+  ========================================
+  Media
+  ========================================
+*/
+
+img {
+	height: 300px;
+	width: 300px;
+	border-radius: 50%;
+	border: 6px double #EEF2F6;
+	left: 50%;
+}
+
+.headshot {
+	float: center;
+}
